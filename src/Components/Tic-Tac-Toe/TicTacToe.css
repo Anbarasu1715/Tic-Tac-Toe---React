@@ -1,0 +1,71 @@
+.container
+{
+    text-align: center;
+}
+
+.title
+{
+    margin-top: 50px;
+    color: white;  
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner
+{
+    color: white;
+}
+
+.title span
+{
+    color: #036595;
+    padding-left: 15px;
+}
+
+.title span:hover
+{
+    color: #e1ff00;
+    cursor: pointer;
+}
+
+.reset
+{
+    height: 100px;
+    width: 250px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #036595;
+    border-radius: 50px;
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.cell
+{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    border: 4px solid #0f1b21;
+    background:#1f3540;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.cell img
+{
+    margin: 25px;
+}
+
+.board
+{
+    display: flex;
+    height: 600px;
+    width: 560px;
+    margin: auto;
+}
